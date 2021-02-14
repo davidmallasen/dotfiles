@@ -1,6 +1,6 @@
 START_DIR=$(pwd)
 
-FILES=(bash_aliases bashrc gitconfig inputrc vimrc tmux.conf)
+FILES=(bash_aliases bashrc inputrc vimrc tmux.conf)
 
 function linkdotfile {
     file="$1"
