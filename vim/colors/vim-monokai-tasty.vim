@@ -90,7 +90,7 @@ call Highlight("CursorColumn", s:none, s:darker_grey, s:none)
 call Highlight("ColorColumn", s:none, s:light_charcoal, s:none)
 call Highlight("Conceal", s:none, s:none, s:none)
 call Highlight("CursorLine", s:none, s:darker_grey, s:none)
-call Highlight("Type", s:none, s:none, s:none)
+call Highlight("Type", s:light_blue, s:none, s:none)
 
 " quickfix window
 call Highlight("qfFileName", s:purple, s:none, s:none)
