@@ -29,6 +29,8 @@ alias gl="git log --graph --all --decorate"
 alias gd="git diff"
 alias gpush="git push"
 alias gpull="git pull"
+alias gco="git checkout"
+alias gb="git branch"
 
 # Overwrite existing commands for better defaults
 alias mv="mv -i"           # -i prompts before overwrite
