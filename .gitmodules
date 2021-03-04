@@ -1,0 +1,12 @@
+[submodule "vim/pack/vendor/start/nerdtree"]
+	path = vim/pack/vendor/start/nerdtree
+	url = https://github.com/preservim/nerdtree
+[submodule "vim/pack/vendor/start/verilog_systemverilog.vim"]
+	path = vim/pack/vendor/start/verilog_systemverilog.vim
+	url = https://github.com/vhda/verilog_systemverilog.vim
+[submodule "vim/pack/vendor/start/riscv.vim"]
+	path = vim/pack/vendor/start/riscv.vim
+	url = https://github.com/kylelaker/riscv.vim
+[submodule "vim/pack/vendor/start/vim-markdown"]
+	path = vim/pack/vendor/start/vim-markdown
+	url = https://github.com/plasticboy/vim-markdown
