@@ -4,11 +4,11 @@ set showcmd
 " Disable the default Vim startup message.
 set shortmess+=I
 
-" Show relative line numbers.
+" Show line numbers.
 set number
-set relativenumber
-autocmd InsertEnter * :set norelativenumber
-autocmd InsertLeave * :set relativenumber
+"set relativenumber
+"autocmd InsertEnter * :set norelativenumber
+"autocmd InsertLeave * :set relativenumber
 
 " Avoid unnecessary delay when pressing ESC
 set ttimeout
