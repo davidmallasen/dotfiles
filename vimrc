@@ -89,6 +89,9 @@ set splitright
 " make :Q imitate :q
 command! -bang Q q<bang>
 
+" sync system clipboard with the default yank register
+set clipboard=unnamedplus
+
 " Colorscheme
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:molokai_original = 0
