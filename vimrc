@@ -110,12 +110,9 @@ elseif exists("+termguicolors")
     set t_Co=256
 
     colorscheme vim-monokai-tasty
-    " colorscheme sonokai
-    " let g:sonokai_style = 'shusia'
-
 elseif &t_Co < 256
-    colorscheme molokai
-    set nocursorline " looks bad in this mode
+    set t_Co=256
+    colorscheme vim-monokai-tasty
 endif
 
 syntax on           " enable syntax processing
