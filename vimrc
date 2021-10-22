@@ -110,7 +110,7 @@ elseif exists("+termguicolors")
     set t_Co=256
 
     colorscheme vim-monokai-tasty
-elseif &t_Co < 256
+else
     set t_Co=256
     colorscheme vim-monokai-tasty
 endif
