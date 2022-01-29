@@ -12,4 +12,7 @@ for file in ${SYMLINK[@]}; do
     linkdotfile $file
 done
 
-echo "Installation complete"
+# Install vim Vundle
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+echo "Installation complete. Enter vim and type :PluginInstall"

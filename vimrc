@@ -1,3 +1,42 @@
+"""""""""""""""""""""""""""""
+" Requirements for Vundle
+"""""""""""""""""""""""""""""
+" Brief help
+" :PluginList       - lists configured plugins
+" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
+" :PluginSearch foo - searches for foo; append `!` to refresh local cache
+" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+"
+" see :h vundle for more details or wiki for FAQ
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+
+call vundle#begin()
+
+" let Vundle manage Vundle
+Plugin 'VundleVim/Vundle.vim'
+
+" Markdown
+Plugin 'godlygeek/tabular'
+Plugin 'preservim/vim-markdown'
+Plugin 'iamcco/markdown-preview.nvim'
+
+" NERDTree
+Plugin 'preservim/nerdtree'
+
+" All of your Plugins must be added before the following line
+call vundle#end()
+
+filetype plugin indent on
+" To ignore plugin indent changes, instead use:
+"filetype plugin on
+"""""""""""""""""""""""""""""
+" END Requirements for Vundle
+"""""""""""""""""""""""""""""
+
 " Show partial commands at the bottom of the screen.
 set showcmd 
 
@@ -166,3 +205,7 @@ autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists('s:std_in
 " Exit Vim if NERDTree is the only window left.
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() |
     \ quit | endif
+
+" ---------------------- vim-markdown -------------------------
+" Disable folding
+let g:vim_markdown_folding_disabled = 1
