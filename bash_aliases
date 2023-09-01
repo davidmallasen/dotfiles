@@ -40,3 +40,4 @@ alias df="df -h"           # -h prints human readable format
 # Misc aliases
 alias v="vim"
 alias python="python3"
+alias reset-plank="killall plank;nohup plank &"
