@@ -40,4 +40,4 @@ alias df="df -h"           # -h prints human readable format
 # Misc aliases
 alias v="vim"
 alias python="python3"
-alias reset-plank="killall plank;nohup plank &"
+alias reset-plank="killall plank; $HOME/.config/plank/replicate_dock.sh; nohup plank &"
