@@ -36,6 +36,7 @@ alias gb="git branch"
 alias mv="mv -i"           # -i prompts before overwrite
 alias mkdir="mkdir -p"     # -p make parent dirs as needed
 alias df="df -h"           # -h prints human readable format
+alias diff="colordiff"
 
 # Misc aliases
 alias v="vim"
