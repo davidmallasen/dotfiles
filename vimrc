@@ -23,6 +23,10 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'godlygeek/tabular'
 Plugin 'preservim/vim-markdown'
 Plugin 'iamcco/markdown-preview.nvim'
+"... then run the following in vim (to complete the Plugin installation):
+" :source %
+" :PluginInstall
+" :call mkdp#util#install()
 
 " NERDTree
 Plugin 'preservim/nerdtree'
